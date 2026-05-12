@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python gui-radar.py
+python radar.py
 ```
 
 The window opens at 980×720 and rescans on demand via the **Rescan** button in
@@ -68,6 +68,6 @@ Blocking calls (`ping` and the DNS socket) are handed off to a thread pool via
 
 ## Customising the target list
 
-Open `gui-radar.py` and edit the `TARGETS` list at the top of the file. Each
+Open `radar.py` and edit the `TARGETS` list at the top of the file. Each
 entry is a tuple of `(display_name, host, group)`. To introduce a new
 category, add a matching key to `GROUP_COLORS` and `GROUP_LABELS`.
